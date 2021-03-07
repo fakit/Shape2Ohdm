@@ -1,2 +1,2 @@
-# Shape2Ohdm
+# Shape2OhdmTool
 zweiter Schritt OhdmImportTool

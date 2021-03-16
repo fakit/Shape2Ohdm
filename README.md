@@ -20,7 +20,8 @@ PGSQL_FILE_PATH = C:\Program Files\PostgreSQL\9.6\bin\psql.exe
 
 1-	The last created table is saved here as the table name. If necessary, you can address a selected table.
 
-2-	The path of the JDBC DRIVER have to be set on **JDBC_DRIVER_PATH** in  [C:\Program Files\Apache Software Foundation\Tomcat 9.X\bin\configFiles\GenConfigs](C:\Program Files\Apache Software Foundation\Tomcat 9.X\bin\configFiles\GenConfigs)  after the first Step of the import process
+2-	The path of the JDBC DRIVER have to be set on **JDBC_DRIVER_PATH** in 
+[C:\Program Files\Apache Software Foundation\Tomcat 9.X\bin\configFiles\GenConfigs](GenConfigs)  after the first Step of the import process
 
 3-	As with the JDBC DRIVER, the path of the OhdmConverter.jar must be specified as OHDM_CONVERTER_PATH.
 

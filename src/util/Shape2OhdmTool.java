@@ -8,9 +8,12 @@ public class Shape2OhdmTool {
 
         if (args.length > 0) {
             CONFIG_PATH = args[0];
+            System.out.println("CONFIG_PATH = "+CONFIG_PATH);
+            IF_CONFIG_PATH=true;
         }
         if (args.length > 1) {
             TABLENAME = args[1];
+            System.out.println("TABLENAME = "+TABLENAME);
         }
         if (args.length > 2) {
             System.err.println("at most two parameter required: CONFIG PATH and TABLENAME");

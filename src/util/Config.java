@@ -6,6 +6,7 @@ public class Config {
 
 
     public static String CONFIG_PATH="C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\bin\\configFiles";
+    public static boolean IF_CONFIG_PATH=false;
 	 /*
         required database settings with examples
      */

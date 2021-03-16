@@ -81,6 +81,11 @@ public class OhdmLoader {
                 "\nvalidSince:"+ VALIDSINCE+
                 "\nvalidUntil:"+ VALIDUNTIL+
                 "\nclassificationID:"+ CLASSIFICATION_ID;
+        if(!IF_CONFIG_PATH){
+            System.err.println("No Config Directory seted, unsing Standard dir: \n CONFIG_PATH = " +CONFIG_PATH);
+            File ConfigFileDir = new File(CONFIG_PATH);
+            ConfigFileDir.mkdirs();
+        }
         PrintWriter writer = new PrintWriter(CONFIG_PATH+"\\db_shape_import", "UTF-8");
         writer.println(OHDM_PARAMETER);
         writer.close();
